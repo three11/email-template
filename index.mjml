@@ -1,0 +1,66 @@
+<mjml>
+	<mj-head>
+		<mj-font
+			name="Source Sans Pro"
+			href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
+		/>
+		<mj-attributes>
+			<mj-class name="footer" font-family="Source Sans Pro, Arial" color="#fff" font-size="12px" />
+			<mj-class name="text" font-family="Source Sans Pro, Arial" color="#757575" font-size="16px" />
+		</mj-attributes>
+	</mj-head>
+	<mj-body background-color="#fff">
+		<mj-section>
+			<mj-column>
+				<mj-image width="200px" src="assets/logo.png"></mj-image>
+			</mj-column>
+		</mj-section>
+
+		<mj-section>
+			<mj-column>
+				<mj-text mj-class="text">Dear {first_name}</mj-text>
+
+				<mj-divider border-width="1px" border-style="dashed" border-color="#757575" />
+
+				<mj-text mj-class="text"
+					>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat purus ut neque elementum
+					auctor. Vestibulum feugiat dui eget odio gravida porta. Sed ac rutrum ex. Morbi porta nunc eu dui
+					rutrum finibus. Fusce eget nisl et ante facilisis dapibus. Cras fringilla elementum augue ut
+					eleifend. Sed auctor urna at ligula cursus commodo. Integer vulputate enim sed finibus posuere.
+					Proin hendrerit sapien sed aliquam porttitor. Donec rhoncus, mi sit amet vehicula interdum, justo
+					erat consequat nulla, vel aliquam odio massa eu ipsum. Nulla lorem enim, euismod eu mi nec, cursus
+					dictum lectus. Sed lobortis lorem tincidunt vulputate pulvinar. In id bibendum nulla, nec tristique
+					tortor.</mj-text
+				>
+
+				<mj-divider border-width="1px" border-style="dashed" border-color="#757575" />
+
+				<mj-text mj-class="text"
+					>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat purus ut neque elementum
+					auctor. Vestibulum feugiat dui eget odio gravida porta. Sed ac rutrum ex. Morbi porta nunc eu dui
+					rutrum finibus. Fusce eget nisl et ante facilisis dapibus. Cras fringilla elementum augue ut
+					eleifend. Sed auctor urna at ligula cursus commodo. Integer vulputate enim sed finibus posuere.
+					Proin hendrerit sapien sed aliquam porttitor. Donec rhoncus, mi sit amet vehicula interdum, justo
+					erat consequat nulla, vel aliquam odio massa eu ipsum. Nulla lorem enim, euismod eu mi nec, cursus
+					dictum lectus. Sed lobortis lorem tincidunt vulputate pulvinar. In id bibendum nulla, nec tristique
+					tortor.</mj-text
+				>
+			</mj-column>
+		</mj-section>
+
+		<mj-section background-color="#42403C">
+			<mj-column>
+				<mj-text mj-class="footer" align="center">
+					Copyright © {year} {company}, All rights reserved.<br />You are receiving this email because you
+					opted in via our website.
+				</mj-text>
+
+				<mj-text mj-class="footer" align="center">
+					<strong>Our mailing address is:</strong><br />
+					{company}<br />
+					{address}
+				</mj-text>
+			</mj-column>
+		</mj-section>
+	</mj-body>
+</mjml>

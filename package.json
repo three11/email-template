@@ -1,0 +1,57 @@
+{
+	"name": "email-starter",
+	"version": "0.0.1",
+	"description": "Email template starter using the mjml language for smooth and effortless development.",
+	"scripts": {
+		"start": "concurrently --kill-others \"yarn bs\" \"yarn mjml\"",
+		"bs": "browser-sync start --config ./.config/browsersync.js",
+		"mjml": "mjml -w index.mjml -o index.html",
+		"build": "rm -rf dist/ && mkdir dist && mjml -v index.mjml && mjml index.mjml -o dist/index.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:three11/email-template.git"
+	},
+	"keywords": [
+		"email",
+		"template",
+		"mjml",
+		"browser-sync",
+		"easy-email"
+	],
+	"authors": [
+		{
+			"name": "Three 11 Ltd",
+			"email": "hello@three-11.com",
+			"role": "Developer"
+		},
+		{
+			"name": "Alexander Panayotov",
+			"email": "alexander.panayotov@gmail.com",
+			"role": "Developer"
+		},
+		{
+			"name": "Atanas Atanasov",
+			"email": "scriptex.bg@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/three11/email-template/issues"
+	},
+	"homepage": "https://github.com/three11/email-template#readme",
+	"dependencies": {},
+	"devDependencies": {
+		"browser-sync": "2.26.7",
+		"concurrently": "^4.1.2",
+		"mjml": "^4.4.1",
+		"yargs": "14.0.0"
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions"
+	],
+	"main": "",
+	"private": true
+}
