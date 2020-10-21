@@ -17,7 +17,7 @@ In order to use this setup you need to have installed the following dependencies
 
 ## Download
 
-You can download this setup [directly](https://github.com/three11/email-template-ts/archive/main.zip) and extract it.
+You can download this setup [directly](https://github.com/three11/email-template/archive/main.zip) and extract it.
 
 Then navigate to the `email-template` folder and proceed with the rest of the instructions.
 
