@@ -1,12 +1,12 @@
 {
-	"name": "email-starter",
-	"version": "0.0.1",
-	"description": "Email template starter using the mjml language for smooth and effortless development.",
+	"name": "email-template",
+	"version": "1.0.0",
+	"description": "Email template using the MJML language for smooth and effortless development.",
 	"scripts": {
 		"start": "concurrently --kill-others \"yarn bs\" \"yarn mjml\"",
 		"bs": "browser-sync start --config ./.config/browsersync.js",
-		"mjml": "mjml -w index.mjml -o index.html",
-		"build": "rm -rf dist/ && mkdir dist && mjml -v index.mjml && mjml index.mjml -o dist/index.html"
+		"mjml": "mjml -w ./src/**/*.mjml -o ./dist/",
+		"build": "rm -rf dist/ && mkdir dist && mjml -v ./src/**/*.mjml && mjml ./src/**/*.mjml -o ./dist/"
 	},
 	"repository": {
 		"type": "git",

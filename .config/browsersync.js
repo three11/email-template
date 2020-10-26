@@ -1,16 +1,5 @@
-const { argv } = require('yargs');
-const url = require('url');
-
-let host = 'localhost';
-let proxy = 'localhost';
-
-if (argv.env && argv.env.url) {
-	host = url.parse(argv.env.url).hostname;
-	proxy = argv.env.url;
-}
-
 module.exports = {
-	host,
+	host: 'localhost',
 	port: 3000,
 	open: 'external',
 	files: ['**/*.html'],
@@ -29,5 +18,5 @@ module.exports = {
 			fn: (snippet, match) => `${snippet}${match}`
 		}
 	},
-	proxy
+	proxy: 'localhost'
 };

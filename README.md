@@ -14,6 +14,7 @@ In order to use this setup you need to have installed the following dependencies
     or
 3.  Yarn - min v1.3.2
 4.  Bash terminal (Default on OSX/Linux, GitBash or similar on Windows)
+5.  A running web server (Apache, MAMP, XAMPP, etc)
 
 ## Download
 
@@ -55,7 +56,7 @@ npm run build
 
 1.  Folder structure:
 
-    -   `.config/` - configuration files
+    -   `.config/` - configuration files. Currently contains the configuration file for [Browsersync](https://browsersync.io/)
     -   `assets/` - all images
 
 ## LICENSE

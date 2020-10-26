@@ -12,7 +12,7 @@
 	<mj-body background-color="#fff">
 		<mj-section>
 			<mj-column>
-				<mj-image width="200px" src="assets/logo.png"></mj-image>
+				<mj-image width="200px" src="../assets/logo.png"></mj-image>
 			</mj-column>
 		</mj-section>
 
