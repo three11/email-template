@@ -54,10 +54,10 @@ npm run build
 
 ## Details
 
-1.  Folder structure:
+### Folder structure:
 
-    -   `.config/` - configuration files. Currently contains the configuration file for [Browsersync](https://browsersync.io/)
-    -   `assets/` - all images
+-   `.config/` - configuration files. Currently contains the configuration file for [Browsersync](https://browsersync.io/)
+-   `assets/` - all images
 
 ## LICENSE
 
