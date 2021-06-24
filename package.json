@@ -43,7 +43,7 @@
 	"homepage": "https://github.com/three11/email-template#readme",
 	"dependencies": {},
 	"devDependencies": {
-		"browser-sync": "2.26.14",
+		"browser-sync": "2.27.1",
 		"concurrently": "6.2.0",
 		"mjml": "4.10.1",
 		"yargs": "17.0.1"
