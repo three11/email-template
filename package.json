@@ -46,7 +46,7 @@
 		"browser-sync": "2.27.5",
 		"concurrently": "6.2.0",
 		"mjml": "4.10.2",
-		"yargs": "17.0.1"
+		"yargs": "17.1.0"
 	},
 	"browserslist": [
 		"> 1%",
