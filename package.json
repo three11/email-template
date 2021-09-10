@@ -45,7 +45,7 @@
 	"devDependencies": {
 		"browser-sync": "2.27.5",
 		"concurrently": "6.2.1",
-		"mjml": "4.10.2",
+		"mjml": "4.10.3",
 		"yargs": "17.1.1"
 	},
 	"browserslist": [
