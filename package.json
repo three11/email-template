@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "Email template using the MJML language for smooth and effortless development.",
 	"scripts": {
-		"start": "concurrently --kill-others \"yarn bs\" \"yarn mjml\"",
+		"start": "concurrently \"yarn bs\" \"yarn mjml\"",
 		"bs": "browser-sync start --config ./.config/browsersync.js",
 		"mjml": "mjml -w ./src/**/*.mjml -o ./dist/",
 		"build": "rm -rf dist/ && mkdir dist && mjml -v ./src/**/*.mjml && mjml ./src/**/*.mjml -o ./dist/"
