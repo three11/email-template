@@ -336,19 +336,20 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
-concurrently@7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/concurrently/-/concurrently-7.1.0.tgz#477b49b8cfc630bb491f9b02e9ed7fb7bff02942"
-  integrity sha512-Bz0tMlYKZRUDqJlNiF/OImojMB9ruKUz6GCfmhFnSapXgPe+3xzY4byqoKG9tUZ7L2PGEUjfLPOLfIX3labnmw==
+concurrently@7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/concurrently/-/concurrently-7.2.0.tgz#4d9b4d1e527b8a8cb101bc2aee317e09496fad43"
+  integrity sha512-4KIVY5HopDRhN3ndAgfFOLsMk1PZUPgghlgTMZ5Pb5aTrqYg86RcZaIZC2Cz+qpZ9DsX36WHGjvWnXPqdnblhw==
   dependencies:
     chalk "^4.1.0"
     date-fns "^2.16.1"
     lodash "^4.17.21"
     rxjs "^6.6.3"
+    shell-quote "^1.7.3"
     spawn-command "^0.0.2-1"
     supports-color "^8.1.0"
     tree-kill "^1.2.2"
-    yargs "^16.2.0"
+    yargs "^17.3.1"
 
 config-chain@^1.1.13:
   version "1.1.13"
@@ -1573,6 +1574,11 @@ setprototypeof@1.2.0:
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.2.0.tgz#66c9a24a73f9fc28cbe66b09fed3d33dcaf1b424"
   integrity sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==
 
+shell-quote@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.3.tgz#aa40edac170445b9a431e17bb62c0b881b9c4123"
+  integrity sha512-Vpfqwm4EnqGdlsBFNmHhxhElJYrdfcxPThu+ryKS5J8L/fhAwLazFZtq+S+TWZ9ANj2piSQLGj6NQg+lKPmxrw==
+
 sigmund@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/sigmund/-/sigmund-1.0.1.tgz#3ff21f198cad2175f9f3b781853fd94d0d19b590"
@@ -1889,7 +1895,7 @@ yargs@17.5.0:
     y18n "^5.0.5"
     yargs-parser "^21.0.0"
 
-yargs@^16.1.0, yargs@^16.2.0:
+yargs@^16.1.0:
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-16.2.0.tgz#1c82bf0f6b6a66eafce7ef30e376f49a12477f66"
   integrity sha512-D1mvvtDG0L5ft/jGWkLpG1+m0eQxOfaBvTNELraWj22wSVUMWxZUvYgJYcKh6jGGIkJFhH4IZPQhR4TKpc8mBw==
